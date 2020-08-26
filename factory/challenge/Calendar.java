@@ -11,5 +11,6 @@ public abstract class Calendar {
 		System.out.println("Hello");
 		new String s;
 	}
+	System.out.println("Hello");
 	public abstract void createCalendar(List<String> appointments);
 }
