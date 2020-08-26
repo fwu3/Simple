@@ -8,6 +8,8 @@ public abstract class Calendar {
 		System.out.println("--- " + zone.getDisplayName() + " Calendar ---");
 		// print all appointments in correct time zone
 		System.out.println("Offset from GMT: " + zone.getOffset());
+		System.out.println("Hello");
+		new String s;
 	}
 	public abstract void createCalendar(List<String> appointments);
 }
